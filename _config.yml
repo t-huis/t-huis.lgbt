@@ -1,6 +1,6 @@
 url: https://t-huis.xyz
 domain: t-huis.xyz
 discordinvite: http://discord.t-huis.xyz
-baseurl: /
+baseurl: 
 exclude:
   - README.md
