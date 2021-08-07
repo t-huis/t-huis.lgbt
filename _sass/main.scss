@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  line-height: 1.4;
+  background: #fafafa;
+}
+* {margin:0;}
+.container {width: 100%;margin:auto;max-width:500px;}
+#header {
+  background: url('/assets/img/bg.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  padding-top:100px;
+}
+#header #logo {
+  background: linear-gradient(180deg,
+    rgba(245,171,185,1) 0%,
+    rgba(245,171,185,1) 33%,
+    rgba(255,255,255,1) 33%,
+    rgba(255,255,255,1) 66%,
+    rgba(91,207,250,1) 66%);
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+#logo-container {
+  padding: 20px 20px 0 20px;
+  border-radius: 10px 10px 0 0;
+  background: white;
+}
+#header #logo img {
+  height: 250px;
+}
+#main {
+  background: white;
+  box-sizing: border-box;
+  padding: 20px 50px;
+  border-radius: 0 0 10px 10px;
+}
+.logo {border-radius: 50px;}
+.button {
+  margin: 20px auto 0 auto;
+  border: 2px solid black;
+  padding: 10px;
+  display: block;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  transition: background .2s, color .2s;
+  margin: 50px 0;
+}
+.button:hover {
+  color: white;
+  background: black;
+}
+h1 {text-align:center;font-size:300%;}
+h2 {font-size: 150%;margin:20px 0 5px 0;}
+
+@media only screen and (max-width: 700px) {
+  body {background:white;}
+  #header{background: none;padding-top:0;}
+}
