@@ -4,3 +4,5 @@ discordinvite: http://discord.t-huis.xyz
 baseurl: 
 exclude:
   - README.md
+include:
+  - '_pages'

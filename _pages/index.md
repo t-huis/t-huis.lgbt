@@ -1,4 +1,5 @@
 ---
+permalink: /
 layout: home
 title: De Discord Server Voor Transgender Nederlanders
 ---
